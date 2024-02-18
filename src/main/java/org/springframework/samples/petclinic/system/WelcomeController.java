@@ -31,4 +31,5 @@ class WelcomeController {
 	public String health() {
 		return "health";
 	}
+
 }
