@@ -27,4 +27,8 @@ class WelcomeController {
 		return "welcome";
 	}
 
+	@GetMapping("/health")
+	public String health() {
+		return "health";
+	}
 }
